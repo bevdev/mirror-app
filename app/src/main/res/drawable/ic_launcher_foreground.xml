@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Handle -->
+    <path
+        android:fillColor="#546E7A"
+        android:pathData="M50,76 L50,91 Q50,95 54,95 Q58,95 58,91 L58,76 Z" />
+
+    <!-- Handle highlight -->
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M51.5,76 L51.5,91 Q51.5,93.5 54,93.5 L54,76 Z" />
+
+    <!-- Outer frame shadow -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M22,50 a32,32 0 1,0 64,0 a32,32 0 1,0 -64,0" />
+
+    <!-- Outer metallic frame -->
+    <path
+        android:fillColor="#78909C"
+        android:pathData="M24,50 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0" />
+
+    <!-- Frame inner bevel -->
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M27,50 a27,27 0 1,0 54,0 a27,27 0 1,0 -54,0" />
+
+    <!-- Mirror face -->
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M30,50 a24,24 0 1,0 48,0 a24,24 0 1,0 -48,0" />
+
+    <!-- Mirror face center -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M36,50 a18,18 0 1,0 36,0 a18,18 0 1,0 -36,0" />
+
+    <!-- Main reflection highlight (large crescent, top-left) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.55"
+        android:pathData="M37,38 C40,33 47,31 52,33 C47,36 42,41 40,46 Z" />
+
+    <!-- Small bright glint -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.85"
+        android:pathData="M40,43 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+
+</vector>
